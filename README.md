@@ -1,6 +1,10 @@
 - Reverse Shell By MrMad 
 
-- refrence 
+- refrence
+- revshells generator
+- https://www.revshells.com
+
+
 ```
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 ```
